@@ -82,3 +82,30 @@ html {
     background-color: red;
     cursor: pointer;
 }
+
+.custom:active {
+    background: blueviolet;
+}
+
+.custom:hover {
+    background: rgb(70, 226, 43);
+}
+
+.dot:checked + label {
+    background: #ed16ad6f;
+}
+
+
+/*---state-checked--*/
+.dots-wrapper:has(#dot1:checked) ~ .slider-images .images-wrapper {
+    transform: translateX(0);
+}
+.dots-wrapper:has(#dot2:checked) ~ .slider-images .images-wrapper {
+    transform: translateX(-100%);
+}
+.dots-wrapper:has(#dot3:checked) ~ .slider-images .images-wrapper {
+    transform: translateX(-200%);
+}
+.dots-wrapper:has(#dot4:checked) ~ .slider-images .images-wrapper {
+    transform: translateX(-300%);
+}
