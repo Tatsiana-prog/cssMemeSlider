@@ -29,8 +29,10 @@ html {
     line-height: 1.2;  
 }
 
+/*slider-images*/
 .slider-images {
     overflow: hidden;
+    margin-bottom: 2.5rem;
 }
 .images-wrapper {
     display: flex;
@@ -40,9 +42,11 @@ html {
     width: 56.25rem; 
 }
 
+/*slider-content*/
 .slider-content {
    max-width: 18.75rem;
    overflow: hidden;
+  
 }
 .content-wrapper {
     display: flex;
@@ -54,4 +58,27 @@ html {
   font-family: 'Courier New', Courier, monospace;
   font-size: 2rem;
   color:red;
+}
+
+/*--dots--*/
+.dots-wrapper {
+    margin-right: 0;
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 1.25rem;
+    align-items: center;
+    width: 50%;
+}
+.dot {
+    display: none;
+}
+
+.custom {
+    display: block;
+    width: 1.875rem;
+    height: 1.875rem;
+    border-radius: 50%;
+    background-color: red;
+    cursor: pointer;
 }
