@@ -92,7 +92,7 @@ body {
 /*--dots--*/
 .dots-wrapper {
     display: flex;   
-    column-gap: 1.25rem;
+    column-gap: 1rem;
     align-items: center;
     max-width: 50%;   
     order: 3;
@@ -104,8 +104,8 @@ body {
 
 .custom {
     display: block;
-    width: 1rem;
-    height: 1rem;
+    width: 0.6rem;
+    height: 0.6rem;
     padding: 1rem;
     border-radius: 50%;
     outline: 0.25rem solid #097df1;
@@ -116,10 +116,7 @@ body {
     cursor: pointer;
 }
 
-.custom:active {
-    outline: 0.25rem solid red;
-    background-color: red;
-}
+
 
 .custom:hover {
     outline: 0.25rem solid #f0f6fc;
